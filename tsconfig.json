@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@tests/*": ["tests/*"]
+    },
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": false,
+    "noUnusedLocals": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "dist"
+  },
+  "include": [
+    "global.d.ts",
+    "global-dev.d.ts",
+    "contexts/**/*",
+    "src/**/*.ts",
+    "config/**/*.ts",
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
