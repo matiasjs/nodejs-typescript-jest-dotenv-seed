@@ -1,5 +1,5 @@
 # dependencies and builds
-# node_modules/
+node_modules/
 dist/
 
 # misc
@@ -12,4 +12,4 @@ yarn-error.log
 
 # tests
 /test
-# coverage
+coverage
